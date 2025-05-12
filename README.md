@@ -1,54 +1,21 @@
-# React + TypeScript + Vite
+# 🌐 WDD430 — Full Stack Web Development
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This course focuses on planning, designing, developing, and deploying full-stack web applications 🚀.  
+You’ll work in teams, build real-world projects, and gain experience with modern development workflows 👥💻.
 
-Currently, two official plugins are available:
+## 🎯 What you'll learn
+- Understand the full stack ecosystem 🧩  
+- Build and deploy modern web applications ☁️  
+- Use contemporary development and deployment workflows 🔄  
+- Collaborate effectively and communicate clearly 🤝  
+- Develop problem-solving and project management skills 🛠️  
+- Improve your ability to work in teams and deliver projects on time ⏰  
+- Gain confidence deploying applications to cloud infrastructure 🌍  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📚 How you’ll learn
+- Weekly hands-on activities to practice concepts 📝  
+- Synchronous group meetings to teach and learn from peers 👨‍🏫👩‍💻  
+- A semester-long team project where you’ll build a complete web app 🛠️🖥️  
+- Opportunities to give and receive feedback to strengthen your skills 💬  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+By the end of the course, you'll have the skills and experience to build and deploy modern, interactive web applications — and to work as a productive team member in real-world dev environments 🚀✨.
