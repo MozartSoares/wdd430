@@ -13,6 +13,7 @@
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.2",
     "clsx": "^2.1.1",
+    "eslint-config-next": "15.4.0-canary.51",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "next": "15.4.0-canary.52",
     "next-auth": "5.0.0-beta.28",
